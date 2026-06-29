@@ -1,0 +1,40 @@
+name: 推荐项目
+description: 推荐一个 AI agent、MCP 或 AI 开发工具项目
+title: "[Tool] "
+labels:
+  - recommendation
+body:
+  - type: input
+    id: name
+    attributes:
+      label: 项目名称
+      placeholder: 例如 LangGraph
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: 项目链接
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: 分类
+      options:
+        - AI 编程助手
+        - Agent 框架
+        - MCP 生态
+        - RAG 与知识库
+        - 浏览器自动化
+        - 安全与评估
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: 推荐理由
+      description: 请说明这个项目解决什么问题，以及你是否实际使用过。
+    validations:
+      required: true

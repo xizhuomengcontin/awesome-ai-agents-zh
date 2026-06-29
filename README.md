@@ -1,0 +1,117 @@
+# Awesome AI Agents 中文导航
+
+面向中文开发者的 AI Agents、MCP、AI 编程工具和生产化实践导航。
+
+> 这个仓库用结构化数据维护清单，README 由脚本生成。欢迎提交 PR 补充真实可用、仍在维护、对开发者有明确价值的项目。
+
+## 为什么做这个列表
+
+AI agents、MCP、AI coding、TypeScript 和开发者工具正在成为开源增长最快的方向之一。英文资料很多，但中文开发者通常需要更快判断：
+
+- 这个工具解决什么问题
+- 适合个人学习还是团队生产
+- 是否开源、是否活跃
+- 从哪里开始上手
+
+这个项目的目标是做一个克制、可维护、对实际开发有帮助的导航，而不是把所有链接都塞进来。
+
+## 快速入口
+
+| 分类 | 适合谁 | 代表方向 |
+| --- | --- | --- |
+| AI 编程助手 | 想提高日常编码效率的开发者 | IDE、终端 coding agent、代码审查 |
+| Agent 框架 | 想构建复杂 AI 工作流的开发者 | 多智能体、状态图、任务编排 |
+| MCP 生态 | 想把工具接入 AI agent 的开发者 | MCP server、工具调用、上下文连接 |
+| RAG 与知识库 | 想做知识问答和企业搜索的团队 | 文档解析、向量检索、评估 |
+| 浏览器自动化 | 想让 agent 操作网页和 SaaS 的开发者 | Web automation、Playwright、browser agents |
+| 安全与评估 | 想把 agent 放进生产环境的团队 | 权限、提示注入、测试、监控 |
+
+## 精选项目
+
+<!-- BEGIN GENERATED -->
+
+### AI 编程助手
+
+| 项目 | 简介 | 语言 | 开源 | 适合阶段 |
+| --- | --- | --- | --- | --- |
+| [OpenAI Codex](https://openai.com/codex) | 云端和本地开发环境中的 AI coding agent，适合把 issue、修复和重构交给 agent 处理。 | N/A | 否 | 进阶 |
+| [Claude Code](https://www.anthropic.com/claude-code) | 终端里的 agentic coding 工具，强调理解大型代码库并执行多步开发任务。 | N/A | 否 | 进阶 |
+| [Cursor](https://www.cursor.com/) | AI-first 代码编辑器，适合日常补全、重构、解释代码和多文件编辑。 | N/A | 否 | 入门 |
+| [Continue](https://github.com/continuedev/continue) | 开源 AI 代码助手，可连接不同模型并集成 VS Code / JetBrains。 | TypeScript | 是 | 入门 |
+| [Aider](https://github.com/Aider-AI/aider) | 命令行 AI pair programming 工具，适合在 Git 仓库内进行可审查的代码修改。 | Python | 是 | 入门 |
+
+### Agent 框架
+
+| 项目 | 简介 | 语言 | 开源 | 适合阶段 |
+| --- | --- | --- | --- | --- |
+| [LangGraph](https://github.com/langchain-ai/langgraph) | 用图结构构建可控、可恢复的 agent 工作流，适合生产级多步骤任务。 | Python / TypeScript | 是 | 进阶 |
+| [AutoGen](https://github.com/microsoft/autogen) | 微软开源的多 agent 框架，适合研究协作式 agent 和复杂任务编排。 | Python | 是 | 进阶 |
+| [CrewAI](https://github.com/crewAIInc/crewAI) | 面向角色和任务的 agent 编排框架，适合快速搭建多 agent demo 和业务流程。 | Python | 是 | 入门 |
+| [OpenHands](https://github.com/All-Hands-AI/OpenHands) | 开源软件开发 agent 平台，目标是让 agent 像开发者一样修改代码和运行命令。 | Python / TypeScript | 是 | 进阶 |
+
+### MCP 生态
+
+| 项目 | 简介 | 语言 | 开源 | 适合阶段 |
+| --- | --- | --- | --- | --- |
+| [Model Context Protocol](https://modelcontextprotocol.io/) | Anthropic 推出的开放协议，用于让模型安全连接工具、数据源和上下文。 | Spec | 是 | 入门 |
+| [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) | 社区维护的 MCP server 清单，适合查找现成工具连接器。 | Markdown | 是 | 入门 |
+| [FastMCP](https://github.com/jlowin/fastmcp) | Python MCP server 开发框架，适合快速把内部工具包装成 agent 可调用能力。 | Python | 是 | 入门 |
+
+### RAG 与知识库
+
+| 项目 | 简介 | 语言 | 开源 | 适合阶段 |
+| --- | --- | --- | --- | --- |
+| [LlamaIndex](https://github.com/run-llama/llama_index) | 面向 LLM 应用的数据框架，常用于 RAG、知识库和文档问答。 | Python / TypeScript | 是 | 入门 |
+| [RAGFlow](https://github.com/infiniflow/ragflow) | 开源 RAG 引擎，关注文档解析、知识库和企业搜索场景。 | Python / TypeScript | 是 | 入门 |
+| [Dify](https://github.com/langgenius/dify) | 开源 LLM 应用开发平台，支持工作流、RAG、agent 和应用发布。 | TypeScript / Python | 是 | 入门 |
+
+### 浏览器自动化
+
+| 项目 | 简介 | 语言 | 开源 | 适合阶段 |
+| --- | --- | --- | --- | --- |
+| [browser-use](https://github.com/browser-use/browser-use) | 让 AI agent 控制浏览器完成网页任务的开源项目。 | Python | 是 | 入门 |
+| [Playwright](https://github.com/microsoft/playwright) | 可靠的浏览器自动化和端到端测试框架，是许多 browser agent 的底层能力。 | TypeScript | 是 | 入门 |
+
+### 安全与评估
+
+| 项目 | 简介 | 语言 | 开源 | 适合阶段 |
+| --- | --- | --- | --- | --- |
+| [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai) | AI 系统评估框架，适合构建可重复的模型和 agent 评测。 | Python | 是 | 进阶 |
+| [Promptfoo](https://github.com/promptfoo/promptfoo) | LLM 应用测试和评估工具，适合回归测试、红队测试和质量对比。 | TypeScript | 是 | 入门 |
+| [Gitleaks](https://github.com/gitleaks/gitleaks) | 检测 Git 仓库中的密钥泄露，适合作为开源项目前的安全检查。 | Go | 是 | 入门 |
+
+<!-- END GENERATED -->
+
+## 收录标准
+
+- 项目有明确用途，而不是只有概念介绍
+- 最近仍有维护迹象
+- 文档能让新用户在 30 分钟内开始
+- 对中文开发者有学习、开发或生产价值
+- 优先收录开源项目；闭源工具只在影响力足够大时作为生态参考
+
+## 不收录
+
+- 纯营销页面
+- 无法运行、无文档、无维护迹象的 demo
+- 需要泄露 API key 或要求过高权限的工具
+- 重复度高、没有差异化价值的项目
+
+## 本地维护
+
+需要 Python 3.10+。
+
+```bash
+python scripts/generate_readme.py
+python scripts/validate_catalog.py
+```
+
+新增项目请编辑 [data/tools.json](data/tools.json)，然后运行生成脚本。
+
+## 贡献
+
+请先阅读 [CONTRIBUTING.md](CONTRIBUTING.md)。推荐通过 issue 提名项目，再由维护者或贡献者整理进清单。
+
+## License
+
+MIT

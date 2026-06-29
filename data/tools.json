@@ -1,0 +1,182 @@
+[
+  {
+    "category": "AI 编程助手",
+    "name": "OpenAI Codex",
+    "url": "https://openai.com/codex",
+    "summary_zh": "云端和本地开发环境中的 AI coding agent，适合把 issue、修复和重构交给 agent 处理。",
+    "language": "N/A",
+    "open_source": false,
+    "stage": "进阶"
+  },
+  {
+    "category": "AI 编程助手",
+    "name": "Claude Code",
+    "url": "https://www.anthropic.com/claude-code",
+    "summary_zh": "终端里的 agentic coding 工具，强调理解大型代码库并执行多步开发任务。",
+    "language": "N/A",
+    "open_source": false,
+    "stage": "进阶"
+  },
+  {
+    "category": "AI 编程助手",
+    "name": "Cursor",
+    "url": "https://www.cursor.com/",
+    "summary_zh": "AI-first 代码编辑器，适合日常补全、重构、解释代码和多文件编辑。",
+    "language": "N/A",
+    "open_source": false,
+    "stage": "入门"
+  },
+  {
+    "category": "AI 编程助手",
+    "name": "Continue",
+    "url": "https://github.com/continuedev/continue",
+    "summary_zh": "开源 AI 代码助手，可连接不同模型并集成 VS Code / JetBrains。",
+    "language": "TypeScript",
+    "open_source": true,
+    "stage": "入门"
+  },
+  {
+    "category": "AI 编程助手",
+    "name": "Aider",
+    "url": "https://github.com/Aider-AI/aider",
+    "summary_zh": "命令行 AI pair programming 工具，适合在 Git 仓库内进行可审查的代码修改。",
+    "language": "Python",
+    "open_source": true,
+    "stage": "入门"
+  },
+  {
+    "category": "Agent 框架",
+    "name": "LangGraph",
+    "url": "https://github.com/langchain-ai/langgraph",
+    "summary_zh": "用图结构构建可控、可恢复的 agent 工作流，适合生产级多步骤任务。",
+    "language": "Python / TypeScript",
+    "open_source": true,
+    "stage": "进阶"
+  },
+  {
+    "category": "Agent 框架",
+    "name": "AutoGen",
+    "url": "https://github.com/microsoft/autogen",
+    "summary_zh": "微软开源的多 agent 框架，适合研究协作式 agent 和复杂任务编排。",
+    "language": "Python",
+    "open_source": true,
+    "stage": "进阶"
+  },
+  {
+    "category": "Agent 框架",
+    "name": "CrewAI",
+    "url": "https://github.com/crewAIInc/crewAI",
+    "summary_zh": "面向角色和任务的 agent 编排框架，适合快速搭建多 agent demo 和业务流程。",
+    "language": "Python",
+    "open_source": true,
+    "stage": "入门"
+  },
+  {
+    "category": "Agent 框架",
+    "name": "OpenHands",
+    "url": "https://github.com/All-Hands-AI/OpenHands",
+    "summary_zh": "开源软件开发 agent 平台，目标是让 agent 像开发者一样修改代码和运行命令。",
+    "language": "Python / TypeScript",
+    "open_source": true,
+    "stage": "进阶"
+  },
+  {
+    "category": "MCP 生态",
+    "name": "Model Context Protocol",
+    "url": "https://modelcontextprotocol.io/",
+    "summary_zh": "Anthropic 推出的开放协议，用于让模型安全连接工具、数据源和上下文。",
+    "language": "Spec",
+    "open_source": true,
+    "stage": "入门"
+  },
+  {
+    "category": "MCP 生态",
+    "name": "Awesome MCP Servers",
+    "url": "https://github.com/punkpeye/awesome-mcp-servers",
+    "summary_zh": "社区维护的 MCP server 清单，适合查找现成工具连接器。",
+    "language": "Markdown",
+    "open_source": true,
+    "stage": "入门"
+  },
+  {
+    "category": "MCP 生态",
+    "name": "FastMCP",
+    "url": "https://github.com/jlowin/fastmcp",
+    "summary_zh": "Python MCP server 开发框架，适合快速把内部工具包装成 agent 可调用能力。",
+    "language": "Python",
+    "open_source": true,
+    "stage": "入门"
+  },
+  {
+    "category": "RAG 与知识库",
+    "name": "LlamaIndex",
+    "url": "https://github.com/run-llama/llama_index",
+    "summary_zh": "面向 LLM 应用的数据框架，常用于 RAG、知识库和文档问答。",
+    "language": "Python / TypeScript",
+    "open_source": true,
+    "stage": "入门"
+  },
+  {
+    "category": "RAG 与知识库",
+    "name": "RAGFlow",
+    "url": "https://github.com/infiniflow/ragflow",
+    "summary_zh": "开源 RAG 引擎，关注文档解析、知识库和企业搜索场景。",
+    "language": "Python / TypeScript",
+    "open_source": true,
+    "stage": "入门"
+  },
+  {
+    "category": "RAG 与知识库",
+    "name": "Dify",
+    "url": "https://github.com/langgenius/dify",
+    "summary_zh": "开源 LLM 应用开发平台，支持工作流、RAG、agent 和应用发布。",
+    "language": "TypeScript / Python",
+    "open_source": true,
+    "stage": "入门"
+  },
+  {
+    "category": "浏览器自动化",
+    "name": "browser-use",
+    "url": "https://github.com/browser-use/browser-use",
+    "summary_zh": "让 AI agent 控制浏览器完成网页任务的开源项目。",
+    "language": "Python",
+    "open_source": true,
+    "stage": "入门"
+  },
+  {
+    "category": "浏览器自动化",
+    "name": "Playwright",
+    "url": "https://github.com/microsoft/playwright",
+    "summary_zh": "可靠的浏览器自动化和端到端测试框架，是许多 browser agent 的底层能力。",
+    "language": "TypeScript",
+    "open_source": true,
+    "stage": "入门"
+  },
+  {
+    "category": "安全与评估",
+    "name": "Inspect AI",
+    "url": "https://github.com/UKGovernmentBEIS/inspect_ai",
+    "summary_zh": "AI 系统评估框架，适合构建可重复的模型和 agent 评测。",
+    "language": "Python",
+    "open_source": true,
+    "stage": "进阶"
+  },
+  {
+    "category": "安全与评估",
+    "name": "Promptfoo",
+    "url": "https://github.com/promptfoo/promptfoo",
+    "summary_zh": "LLM 应用测试和评估工具，适合回归测试、红队测试和质量对比。",
+    "language": "TypeScript",
+    "open_source": true,
+    "stage": "入门"
+  },
+  {
+    "category": "安全与评估",
+    "name": "Gitleaks",
+    "url": "https://github.com/gitleaks/gitleaks",
+    "summary_zh": "检测 Git 仓库中的密钥泄露，适合作为开源项目前的安全检查。",
+    "language": "Go",
+    "open_source": true,
+    "stage": "入门"
+  }
+]
