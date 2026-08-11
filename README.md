@@ -116,6 +116,7 @@ python scripts/validate_catalog.py
 
 这个项目属于一组面向 AI coding agents 和开源发布流程的小工具：
 
+- [repo-agent-bench](https://github.com/Uky0Yang/repo-agent-bench): 在真实仓库中 A/B 测试 AGENTS.md、Agent Skills、MCP 与 coding-agent 工作流
 - [agent-repo-kit](https://github.com/Uky0Yang/agent-repo-kit): 一键生成 agent-ready 开源项目骨架
 - [oss-launch-check](https://github.com/Uky0Yang/oss-launch-check): 检查仓库是否已经准备好开源发布
 - [repo-context-card](https://github.com/Uky0Yang/repo-context-card): 为 AI coding agents 生成紧凑仓库上下文卡片
