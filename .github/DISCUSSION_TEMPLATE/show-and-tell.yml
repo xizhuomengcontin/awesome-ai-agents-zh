@@ -1,0 +1,45 @@
+title: "[作品] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        欢迎分享能访问、能理解、能复现的项目、教程和实验。单纯广告或返利链接会被移除。
+  - type: input
+    id: link
+    attributes:
+      label: 项目或内容链接
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: dropdown
+    id: relationship
+    attributes:
+      label: 你与这个项目的关系
+      options:
+        - 项目维护者
+        - 项目贡献者
+        - 实际用户
+        - 独立研究或评测者
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: 它解决了什么问题
+      description: 说明目标用户、真实用途，以及目前已经完成并验证的部分。
+    validations:
+      required: true
+  - type: textarea
+    id: lessons
+    attributes:
+      label: 经验、限制与希望得到的反馈
+      description: 分享一个可复用的经验，并明确当前限制或想讨论的问题。
+    validations:
+      required: true
+  - type: checkboxes
+    id: quality
+    attributes:
+      label: 发布前确认
+      options:
+        - label: 我已公开说明与项目的关系，链接与本社区主题相关，且不包含返利或跟踪推广。
+          required: true

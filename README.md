@@ -1,10 +1,10 @@
-# Awesome AI Agents 中文导航
+# Awesome AI Agents 中文社区
 
-面向中文开发者的 AI Agents、MCP、AI 编程工具和生产化实践导航。
+面向中文开发者的 AI Agents、MCP、AI 编程工具和生产化实践社区：既能快速找到可靠工具，也能提问、分享作品和交流真实经验。
 
-> 这个仓库用结构化数据维护清单，README 由脚本生成。欢迎提交 PR 补充真实可用、仍在维护、对开发者有明确价值的项目。
+> 这个仓库用结构化数据维护清单，README 由脚本生成。社区交流使用 GitHub Discussions，项目收录使用 Issue 和 PR。
 
-## 为什么做这个列表
+## 为什么做这个社区
 
 AI agents、MCP、AI coding、TypeScript 和开发者工具正在成为开源增长最快的方向之一。英文资料很多，但中文开发者通常需要更快判断：
 
@@ -13,7 +13,7 @@ AI agents、MCP、AI coding、TypeScript 和开发者工具正在成为开源增
 - 是否开源、是否活跃
 - 从哪里开始上手
 
-这个项目的目标是做一个克制、可维护、对实际开发有帮助的导航，而不是把所有链接都塞进来。
+这个项目的目标是做一个克制、可维护、对实际开发有帮助的中文社区，而不是把所有链接都塞进来。导航负责降低信息筛选成本，讨论区负责沉淀中文问题、实践经验和可复用作品。
 
 ## 快速入口
 
@@ -25,6 +25,20 @@ AI agents、MCP、AI coding、TypeScript 和开发者工具正在成为开源增
 | RAG 与知识库 | 想做知识问答和企业搜索的团队 | 文档解析、向量检索、评估 |
 | 浏览器自动化 | 想让 agent 操作网页和 SaaS 的开发者 | Web automation、Playwright、browser agents |
 | 安全与评估 | 想把 agent 放进生产环境的团队 | 权限、提示注入、测试、监控 |
+
+## 加入中文社区
+
+社区以 GitHub 为场地，不需要加入新的聊天群。请选择最合适的入口：
+
+| 你想做什么 | 入口 | 发帖前准备 |
+| --- | --- | --- |
+| 遇到工具或开发问题 | [Q&A 求助](https://github.com/Uky0Yang/awesome-ai-agents-zh/discussions/categories/q-a) | 说明目标、环境、已经尝试的方法和完整错误信息 |
+| 展示自己的项目或实验 | [Show and tell](https://github.com/Uky0Yang/awesome-ai-agents-zh/discussions/categories/show-and-tell) | 提供可访问链接、实际用途、验证结果和你与项目的关系 |
+| 建议新栏目或社区改进 | [Ideas](https://github.com/Uky0Yang/awesome-ai-agents-zh/discussions/categories/ideas) | 先搜索重复讨论，再说明问题和预期价值 |
+| 推荐一个工具进入导航 | [推荐项目](https://github.com/Uky0Yang/awesome-ai-agents-zh/issues/new?template=tool.yml) | 提供维护、文档和实际使用证据 |
+| 直接改进目录或文档 | [贡献指南](CONTRIBUTING.md) | 编辑结构化数据并运行本地校验 |
+
+参与前请阅读 [社区公约](COMMUNITY.md) 和 [行为准则](CODE_OF_CONDUCT.md)。中文优先，英文贡献同样欢迎；项目名、命令和技术术语请保留准确原文。
 
 ## 精选项目
 

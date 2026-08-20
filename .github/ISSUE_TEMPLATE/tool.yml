@@ -2,7 +2,7 @@ name: 推荐项目
 description: 推荐一个 AI agent、MCP 或 AI 开发工具项目
 title: "[Tool] "
 labels:
-  - recommendation
+  - enhancement
 body:
   - type: input
     id: name
@@ -36,5 +36,23 @@ body:
     attributes:
       label: 推荐理由
       description: 请说明这个项目解决什么问题，以及你是否实际使用过。
+    validations:
+      required: true
+  - type: dropdown
+    id: relationship
+    attributes:
+      label: 你与项目的关系
+      options:
+        - 普通用户
+        - 项目维护者
+        - 项目贡献者
+        - 仅做过资料研究
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 可核验的维护或使用证据
+      description: 例如最近 release、文档、可运行示例，或你实际完成的任务。请勿填写账号、密钥或私人数据。
     validations:
       required: true
