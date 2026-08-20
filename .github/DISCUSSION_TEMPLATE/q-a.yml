@@ -1,0 +1,48 @@
+title: "[求助] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢提问。请提供可复现的信息，并删除所有密钥、账号和私人数据。
+  - type: dropdown
+    id: topic
+    attributes:
+      label: 问题方向
+      options:
+        - AI 编程助手
+        - Agent 框架
+        - MCP 生态
+        - RAG 与知识库
+        - 浏览器自动化
+        - 安全与评估
+        - 其他 AI agent 实践
+    validations:
+      required: true
+  - type: textarea
+    id: goal
+    attributes:
+      label: 你想完成什么
+      description: 用一两句话说明目标和预期结果。
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: 环境与当前现象
+      description: 包括工具版本、操作系统、相关配置和完整错误信息；请先移除敏感信息。
+    validations:
+      required: true
+  - type: textarea
+    id: attempts
+    attributes:
+      label: 已经尝试的方法
+      description: 说明你做过什么，以及结果有什么变化。
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: 发布前确认
+      options:
+        - label: 我已搜索相似讨论，并移除了密钥、账号和私人数据。
+          required: true

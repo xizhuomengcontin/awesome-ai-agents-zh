@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 使用问题与求助
+    url: https://github.com/Uky0Yang/awesome-ai-agents-zh/discussions/categories/q-a
+    about: 请在 Q&A 说明目标、环境、已经尝试的方法和错误信息。
+  - name: 作品、教程与实践分享
+    url: https://github.com/Uky0Yang/awesome-ai-agents-zh/discussions/categories/show-and-tell
+    about: 请在 Show and tell 分享可访问链接、实际用途和验证结果。
+  - name: 社区或目录改进建议
+    url: https://github.com/Uky0Yang/awesome-ai-agents-zh/discussions/categories/ideas
+    about: 请先搜索已有讨论，再说明问题和预期价值。
