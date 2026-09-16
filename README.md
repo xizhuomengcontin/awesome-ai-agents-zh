@@ -17,6 +17,10 @@ AI agents、MCP、AI coding、TypeScript 和开发者工具正在成为开源增
 
 ## 快速入口
 
+新手实操：[把一个模糊需求变成可验证的 Agent 小实验](guides/first-agent-experiment.md)。从选工具、限制权限到记录失败结果，一次只验证一个工作流。
+
+本次新增 Pydantic AI 与 Microsoft Agent Framework；[收录核验记录](guides/catalog-review-2026-09.md)保留来源和固定提交，不把文档审查写成生产验证。
+
 | 分类 | 适合谁 | 代表方向 |
 | --- | --- | --- |
 | AI 编程助手 | 想提高日常编码效率的开发者 | IDE、终端 coding agent、代码审查 |
@@ -60,6 +64,8 @@ AI agents、MCP、AI coding、TypeScript 和开发者工具正在成为开源增
 | --- | --- | --- | --- | --- |
 | [LangGraph](https://github.com/langchain-ai/langgraph) | 用图结构构建可控、可恢复的 agent 工作流，适合生产级多步骤任务。 | Python / TypeScript | 是 | 进阶 |
 | [AutoGen](https://github.com/microsoft/autogen) | 微软开源的多 agent 框架，适合研究协作式 agent 和复杂任务编排。 | Python | 是 | 进阶 |
+| [Pydantic AI](https://github.com/pydantic/pydantic-ai) | 以 Python 类型和结构化输出为中心的 agent SDK，适合需要验证模型输出、组合工具与测试的应用。 | Python | 是 | 进阶 |
+| [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) | 微软维护的 agent 与多 agent 工作流框架，支持 Python 和 .NET，适合需要跨语言编排的团队。 | Python / C# | 是 | 进阶 |
 | [CrewAI](https://github.com/crewAIInc/crewAI) | 面向角色和任务的 agent 编排框架，适合快速搭建多 agent demo 和业务流程。 | Python | 是 | 入门 |
 | [OpenHands](https://github.com/All-Hands-AI/OpenHands) | 开源软件开发 agent 平台，目标是让 agent 像开发者一样修改代码和运行命令。 | Python / TypeScript | 是 | 进阶 |
 | [Orkas](https://github.com/Orkas-AI/Orkas) | MIT 开源的本地优先多 agent 桌面应用，通过 Commander 协调专业 agent 并行或串行完成复杂任务。 | TypeScript | 是 | 进阶 |

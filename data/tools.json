@@ -64,6 +64,24 @@
   },
   {
     "category": "Agent 框架",
+    "name": "Pydantic AI",
+    "url": "https://github.com/pydantic/pydantic-ai",
+    "summary_zh": "以 Python 类型和结构化输出为中心的 agent SDK，适合需要验证模型输出、组合工具与测试的应用。",
+    "language": "Python",
+    "open_source": true,
+    "stage": "进阶"
+  },
+  {
+    "category": "Agent 框架",
+    "name": "Microsoft Agent Framework",
+    "url": "https://github.com/microsoft/agent-framework",
+    "summary_zh": "微软维护的 agent 与多 agent 工作流框架，支持 Python 和 .NET，适合需要跨语言编排的团队。",
+    "language": "Python / C#",
+    "open_source": true,
+    "stage": "进阶"
+  },
+  {
+    "category": "Agent 框架",
     "name": "CrewAI",
     "url": "https://github.com/crewAIInc/crewAI",
     "summary_zh": "面向角色和任务的 agent 编排框架，适合快速搭建多 agent demo 和业务流程。",
